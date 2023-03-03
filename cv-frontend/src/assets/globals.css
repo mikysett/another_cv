@@ -1,0 +1,41 @@
+[style-mode='dark'] body {
+	--color1: #333;
+	--color2: #00a851;
+	--color3: #2a2aff;
+
+	--bg1: #fff4ea;
+	--bg2: #c2ffdf;
+	--bg3: #d3d3d3;
+}
+
+[style-mode='light'] body {
+  --color1: #333;
+	--color2: #00a851;
+	--color3: #2a2aff;
+
+	--bg1: #fff4ea;
+	--bg2: #c2ffdf;
+	--bg3: #d3d3d3;
+}
+
+.main-container {
+  max-width: 600px;
+}
+
+.secondary-container {
+  min-width: 240px;
+  position: fixed;
+  overflow: auto;
+  max-height: 100vh;
+}
+
+blockquote {
+  padding: 10px 20px;
+  font-size: 16px;
+  font-style: italic;
+  line-height: 22px;
+}
+
+strong {
+  font-weight: bold;
+}
