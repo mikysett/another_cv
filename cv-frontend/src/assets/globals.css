@@ -18,15 +18,22 @@
 	--bg3: #d3d3d3;
 }
 
+body {
+  line-height: 20px;
+  color: var(--color1);
+  font-size: 14px;
+}
+
 .main-container {
   max-width: 600px;
 }
 
 .secondary-container {
-  min-width: 240px;
+  min-width: 260px;
   position: fixed;
   overflow: auto;
   max-height: 100vh;
+  padding: 20px;
 }
 
 blockquote {
@@ -38,4 +45,21 @@ blockquote {
 
 strong {
   font-weight: bold;
+}
+
+a {
+  text-decoration: none;
+}
+
+.justified-header {
+  display: flex;
+  align-items: center;
+  font-family: "Cutive Mono", monospace;
+}
+
+.jh-right {
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  flex: 1;
 }

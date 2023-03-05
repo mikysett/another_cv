@@ -21,8 +21,8 @@
 
       <div class="info-section">
         <h3>Contact info</h3>
-        <p><a href="mailto:mikysett@gmail.com">✉️ mikysett@gmail.com</a></p>
-        <p><a href="tel:+393271551904">📞 +39 327 15 51 904</a></p>
+        <p><a class="contact-link" href="mailto:mikysett@gmail.com">✉️ mikysett@gmail.com</a></p>
+        <p><a class="contact-link" href="tel:+393271551904">📞 +39 327 15 51 904</a></p>
         <p>🏠 Lisbon, Portugal</p>
       </div>
 
@@ -52,11 +52,11 @@
 
     </div>
 
-    <h3 class="menu-title">More about me:</h3>
+    <h3 class="menu-title">More about me</h3>
     <div class="bottom-menu">
-      <router-link to="/">Home</router-link>
-      <router-link to="/bio">Bio</router-link>
-      <router-link to="/programming">Programming</router-link>
+      <router-link class="menu-link" to="/">Home</router-link>
+      <router-link class="menu-link" to="/bio">Bio</router-link>
+      <router-link class="menu-link" to="/programming">Programming</router-link>
     </div>
   </nav>
 </template>
@@ -79,6 +79,7 @@
   font-family: "Cutive Mono", monospace;
   font-weight: bold;
   font-size: 38px;
+  line-height: 44px;
   margin-top: 20px;
 }
 
@@ -124,6 +125,23 @@
   flex-direction: column;
   border: solid 2px #00a851;
   padding: 4px;
+}
+
+.contact-link {
+  color: var(--color1);
+}
+
+.contact-link:hover {
+  color: var(--color2);
+}
+
+.menu-link {
+  color: var(--color1);
+  text-decoration: underline;
+}
+
+.menu-link:hover {
+  color: var(--color2);
 }
 
 </style>

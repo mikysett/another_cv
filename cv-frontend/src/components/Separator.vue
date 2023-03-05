@@ -10,6 +10,6 @@ div {
   width: auto;
   height: 2px;
   background-color: var(--bg3);
-  margin: 12px 0;
+  margin: 16px 0;
 }
 </style>

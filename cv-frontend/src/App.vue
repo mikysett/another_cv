@@ -1,7 +1,7 @@
 <template>
   <div class="main-grid">
     <div class="side-content-wrapper">
-      <main-menu />
+      <main-menu class="secondary-container" />
     </div>
     <div class="main-content-wrapper">
       <router-view />
@@ -68,7 +68,6 @@ initStyleMode()
   display: flex;
   justify-content: flex-end;
   background-color: var(--bg2);
-  padding: 20px;
 }
 
 .main-content-wrapper {
