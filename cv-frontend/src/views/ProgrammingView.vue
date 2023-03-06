@@ -1,22 +1,27 @@
 <template>
   <div class="main-container">
-    <div class="header-container">
-      <h1>Programming</h1>
-      <div class="header-btn-container">
-        <router-link to="/">Back to Home</router-link>
-      </div>
-    </div>
+    <MainHeader page-name="Programming" />
+
+    <blockquote>
+      “What I hear, I forget; What I see, I remember; What I do, I understand.”
+      <br>
+      <strong>― Confucius, 551-479 BC</strong>
+    </blockquote>
+
     <Separator />
+
   </div>
 </template>
 
 <script>
 import Separator from '@/components/Separator.vue'
+import MainHeader from '@/components/MainHeader.vue'
 
 export default {
   name: 'ProgrammingView',
   components: {
-    Separator
+    Separator,
+    MainHeader
   }
 }
 </script>
