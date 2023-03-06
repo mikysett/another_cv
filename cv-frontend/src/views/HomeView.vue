@@ -95,7 +95,6 @@
 
     </div>
 
-
     <div class="extra-info-wrapper">
       <h2 class="role-title ei-title">Education</h2>
       <div class="ei-container">
