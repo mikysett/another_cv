@@ -157,13 +157,6 @@ export default {
   margin: 12px 0;
 }
 
-.role-title {
-  font-size: 24px;
-  line-height: 30px;
-  font-family: "Cutive Mono", monospace;
-  margin: 0 0 4px;
-}
-
 .sub-role-title::before {
   content: "— ";
   color: var(--color2);
@@ -173,25 +166,6 @@ export default {
 
 .description {
   padding-top: 10px;
-}
-
-.extra-info-wrapper {
-  margin-top: 20px;
-  border: 2px solid var(--color2);
-  border-radius: 4px;
-  padding: 12px;
-}
-
-.ei-container {
-  padding-bottom: 20px;
-}
-
-.no-p {
-  padding: 0;
-}
-
-.ei-title {
-  color: var(--color2);
 }
 
 </style>
