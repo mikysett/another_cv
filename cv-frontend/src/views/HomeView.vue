@@ -65,7 +65,7 @@
             <p>Full-time</p>
           </div>
           <div class="jh-right">
-            <p>Mar 2020 - Jan 2023</p>
+            <p>Lisbon, Mar 2020 - Jan 2023</p>
           </div>
         </div>
         <div class="description">
@@ -84,7 +84,7 @@
             <p>Teleperformance, Full-time</p>
           </div>
           <div class="jh-right">
-            <p>Feb 2019 - Mar 2020</p>
+            <p>Lisbon, Feb 2019 - Mar 2020</p>
           </div>
         </div>
         <div class="description">
@@ -161,7 +161,7 @@ export default {
   font-size: 24px;
   line-height: 30px;
   font-family: "Cutive Mono", monospace;
-  margin: 0 0 10px;
+  margin: 0 0 4px;
 }
 
 .sub-role-title::before {

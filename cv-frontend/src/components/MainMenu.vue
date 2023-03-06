@@ -96,12 +96,11 @@
   font-family: "Cutive Mono", monospace;
   font-size: 18px;
   font-weight: bold;
-  margin-bottom: 12px;
+  margin-bottom: 8px;
 }
 
 .menu-title {
   margin-top: 20px;
-  margin-bottom: 0;
 }
 
 .portfolio-img {
