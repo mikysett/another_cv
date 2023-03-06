@@ -1,8 +1,10 @@
 <template>
-  <div class="header-container">
-    <h1>{{ props.pageName }}</h1>
-    <div class="header-btn-container">
-      <router-link to="/">Back to Home</router-link>
+  <div class="justified-header header-container">
+    <div class="jh-left">
+      <h1>{{ props.pageName }}</h1>
+    </div>
+    <div class="jh-right header-btn-container">
+      <router-link class="std-btn" to="/">Back to Home</router-link>
     </div>
   </div>
 </template>
@@ -12,4 +14,25 @@ const props = defineProps(['pageName'])
 </script>
 
 <style scoped>
+h1 {
+  font-family: "Cutive Mono", monospace;
+  font-size: 42px;
+  line-height: 1.2;
+  color: var(--color2);
+  font-weight: bold;
+}
+
+.std-btn {
+  background: var(--color2);
+  color: var(--bg1);
+  font-family: Lato, sans-serif;
+  text-decoration: none;
+  padding: 9px 15px;
+  border: 2px solid var(--color2);
+}
+
+.std-btn:hover {
+  background: var(--bg1);
+  color: var(--color2);
+}
 </style>

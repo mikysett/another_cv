@@ -63,3 +63,48 @@ a {
   align-items: flex-end;
   flex: 1;
 }
+
+.extra-info-wrapper {
+  margin-top: 20px;
+  border: 2px solid var(--color2);
+  border-radius: 4px;
+  padding: 12px;
+}
+
+.ei-container {
+  padding-bottom: 20px;
+}
+
+.no-p {
+  padding: 0;
+}
+
+.role-title {
+  font-size: 24px;
+  line-height: 30px;
+  font-family: "Cutive Mono", monospace;
+  margin: 0 0 4px;
+}
+
+.ei-title {
+  color: var(--color2);
+}
+
+.list {
+  margin-top: 12px;
+  padding-left: 20px;
+}
+
+.list-item {
+  padding-bottom: 4px;
+}
+
+.main-container a {
+  color: var(--color2);
+  text-decoration: underline;
+}
+
+.main-container a:hover {
+  color: var(--bg1);
+  background: var(--color2);
+}
