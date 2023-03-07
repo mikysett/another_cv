@@ -19,7 +19,8 @@
           </div>
         </div>
         <div class="description">
-          01Talent provide peer2peer learning platforms and pedagogical content to train high-level programmers worldwide.
+          01Talent provides peer2peer learning platforms and pedagogical content to train high-level programmers
+          worldwide.
         </div>
       </div>
 
@@ -62,22 +63,23 @@
         <h3 class="role-title">Freelance Marketing Consultant</h3>
         <div class="justified-header">
           <div class="jh-left">
-            <p>Full-time</p>
+            <p>SMEs, Full-time</p>
           </div>
           <div class="jh-right">
             <p>Lisbon, Mar 2020 - Jan 2023</p>
           </div>
         </div>
         <div class="description">
-          Creating SEA marketing campaigns with particular focus in tags implementation including custom js code
-          injections in order to track complex marketing funnels. Also creating simple landing pages and optimize website
-          speed.
+          Creating SEA marketing campaigns for small and medium e-commerces with particular focus on tags implementation
+          including custom js code
+          injections in order to track complex marketing funnels. Also creating simple landing pages and optimizing
+          website speed.
         </div>
       </div>
 
       <separator />
 
-      <div class="role-wrapper">
+      <!-- <div class="role-wrapper">
         <h3 class="role-title">Product Subject Matter Expert</h3>
         <div class="justified-header">
           <div class="jh-left">
@@ -90,6 +92,55 @@
         <div class="description">
           Focus on helping agents with complex cases and very specific scenarios empowering both colleagues and end-users
           to have the best results they can on Google Ads marketing platform.
+        </div>
+      </div> -->
+
+      <div class="job-container">
+        <div class="company-container">
+          <div class="justified-header">
+            <div class="jh-left">
+              <h2 class="company-title">Teleperformance</h2>
+            </div>
+            <div class="jh-right">
+              <p>Lisbon, Portugal</p>
+            </div>
+          </div>
+          <div class="description">
+            Teleperformance is one of the most trusted provider of omnichannel customer solutions,
+            providing world-class digital integrated business services.
+          </div>
+        </div>
+
+        <div class="roles-wrapper">
+          <div class="role-wrapper">
+            <h3 class="role-title sub-role-title">Product Subject Matter Expert</h3>
+            <div class="justified-header">
+              <div class="jh-left">
+                <p>Full-time</p>
+              </div>
+              <div class="jh-right">
+                <p>Sep 2019 - Mar 2020</p>
+              </div>
+            </div>
+            <div class="description">
+              Focus on helping colleagues with complex cases and very specific scenarios empowering
+              end-users to have the best results they can on Google Ads marketing platform.
+            </div>
+          </div>
+          <div class="role-wrapper">
+            <h3 class="role-title sub-role-title">Regional Customer Service</h3>
+            <div class="justified-header">
+              <div class="jh-left">
+                <p>Full-time</p>
+              </div>
+              <div class="jh-right">
+                <p>Feb 2019 - Sep 2019</p>
+              </div>
+            </div>
+            <div class="description">
+              Troubleshooting and consults for Google Ads marketing platform to improve SEA results in French b2b market.
+            </div>
+          </div>
         </div>
       </div>
 
@@ -166,6 +217,4 @@ export default {
 
 .description {
   padding-top: 10px;
-}
-
-</style>
+}</style>

@@ -27,7 +27,7 @@
     <Separator />
 
     <div class="extra-info-wrapper">
-      <h2 class="role-title ei-title">When I'm not coding</h2>
+      <h2 class="role-title ei-title">What I loved so far</h2>
       <div class="ei-container no-p">
         <ul role="list" class="list">
           <li class="list-item">- <a href="https://en.wikipedia.org/wiki/Hackers_%26_Painters" target="_blank"
