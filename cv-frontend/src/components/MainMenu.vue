@@ -72,6 +72,11 @@
 import { ref, computed } from 'vue'
 
 const showContactInfo = ref(true)
+
+if (window.innerWidth <= 850) {
+  showContactInfo.value = false
+}
+
 const ContactBtnText = computed(() => {
   return showContactInfo.value ? 'Hide contact info' : 'Show contact info'
 })
