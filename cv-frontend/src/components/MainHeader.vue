@@ -4,7 +4,7 @@
       <h1>{{ props.pageName }}</h1>
     </div>
     <div class="jh-right header-btn-container">
-      <router-link class="std-btn" to="/">Back to Home</router-link>
+      <router-link class="std-btn" to="/">Back&nbsp;to&nbsp;Home</router-link>
     </div>
   </div>
 </template>
@@ -20,19 +20,12 @@ h1 {
   line-height: 1.2;
   color: var(--color2);
   font-weight: bold;
+  margin-right: 20px;
 }
 
-.std-btn {
-  background: var(--color2);
-  color: var(--bg1);
-  font-family: Lato, sans-serif;
-  text-decoration: none;
-  padding: 9px 15px;
-  border: 2px solid var(--color2);
-}
-
-.std-btn:hover {
-  background: var(--bg1);
-  color: var(--color2);
+@media (max-width: 850px) {
+  .justified-header {
+    flex-wrap: wrap;
+  }
 }
 </style>

@@ -99,12 +99,44 @@ a {
   padding-bottom: 4px;
 }
 
-.main-container a {
+.ei-container a, .long-description a {
   color: var(--color2);
   text-decoration: underline;
 }
 
-.main-container a:hover {
+.ei-container a:hover, .long-description a:hover {
   color: var(--bg1);
   background: var(--color2);
+}
+
+.std-btn {
+  background: var(--color2);
+  color: var(--bg1);
+  font-family: Lato, sans-serif;
+  text-decoration: none;
+  padding: 9px 15px;
+  border: 2px solid var(--color2);
+  cursor: pointer;
+}
+
+.std-btn:hover {
+  background: var(--bg1);
+  color: var(--color2);
+}
+
+@media (max-width: 850px) {
+  .secondary-container {
+    width: 100vw;
+    max-height: auto;
+    position: static;
+  }
+
+  .main-content-wrapper {
+    width: 100vw;
+    overflow: hidden;
+  }
+
+  .main-container {
+    max-width: none;
+  }
 }

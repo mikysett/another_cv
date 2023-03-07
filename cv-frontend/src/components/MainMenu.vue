@@ -1,12 +1,20 @@
 <template>
   <nav>
-    <div class="profile-img-wrapper">
-      <img class="profile-img" src="../assets/img/profile.jpg" alt="Michele Sessa">
+    <div class="menu-header-wrapper">
+      <div class="profile-img-wrapper">
+        <img class="profile-img" src="../assets/img/profile.jpg" alt="Michele Sessa">
+      </div>
+      <div class="menu-header-titles">
+        <h1 class="title">Michele<br />Sessa</h1>
+        <h2 class="subtitle">Software Engineer</h2>
+      </div>
     </div>
-    <h1 class="title">Michele<br />Sessa</h1>
-    <h2 class="subtitle">Software Engineer</h2>
 
-    <div class="contact-info-container">
+    <p @click="showContactInfo = !showContactInfo" class="std-btn contact-btn">
+      {{ ContactBtnText }}
+    </p>
+
+    <div v-if="showContactInfo" class="contact-info-container">
       <div class="info-section">
         <h3>Portfolio</h3>
         <div class="img-container">
@@ -54,7 +62,6 @@
 
     <h3 class="menu-title">More about me</h3>
     <div class="bottom-menu">
-      <router-link class="menu-link" to="/">Home</router-link>
       <router-link class="menu-link" to="/bio">Bio</router-link>
       <router-link class="menu-link" to="/programming">Programming</router-link>
     </div>
@@ -62,6 +69,12 @@
 </template>
 
 <script setup>
+import { ref, computed } from 'vue'
+
+const showContactInfo = ref(true)
+const ContactBtnText = computed(() => {
+  return showContactInfo.value ? 'Hide contact info' : 'Show contact info'
+})
 </script>
 
 <style scoped>
@@ -141,6 +154,33 @@
 
 .menu-link:hover {
   color: var(--color2);
+}
+
+.contact-btn {
+  display: none;
+  text-align: center;
+}
+
+@media (max-width: 850px) {
+  .contact-btn {
+    display: block;
+  }
+
+  .menu-header-wrapper {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+
+  .profile-img {
+    max-width: 90px;
+    margin-right: 20px;
+  }
+
+  .title {
+    margin-top: 0;
+    line-height: 38px;
+  }
 }
 
 </style>

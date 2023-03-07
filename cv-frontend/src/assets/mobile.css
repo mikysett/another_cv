@@ -1,0 +1,10 @@
+@media (max-width: 850px) {
+  .main-grid {
+    grid-row-gap: 0px;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+  }
+  body {
+    --color2: orange;
+  }
+}

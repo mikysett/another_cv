@@ -46,6 +46,7 @@ initStyleMode()
 <style>
 @import './assets/reset.css';
 @import './assets/globals.css';
+@import './assets/mobile.css';
 
 #app {
   font-family: Lato, sans-serif;
@@ -72,6 +73,14 @@ initStyleMode()
 
 .main-content-wrapper {
   padding: 20px;
+}
+
+@media (max-width: 850px) {
+  .main-grid {
+    grid-row-gap: 0px;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+  }
 }
 
 </style>
