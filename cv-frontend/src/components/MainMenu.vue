@@ -35,6 +35,18 @@
       </div>
 
       <div class="info-section">
+        <h3>Tech skills</h3>
+        <div class="skill-line">
+          <div class="skill-name">Front-end</div>
+          <div class="skill-level">JS / Vue</div>
+        </div>
+        <div class="skill-line">
+          <div class="skill-name">Back-end</div>
+          <div class="skill-level">C / Rust</div>
+        </div>
+      </div>
+
+      <div class="info-section">
         <h3>Languages</h3>
         <div class="skill-line">
           <div class="icon-container">🍕</div>
