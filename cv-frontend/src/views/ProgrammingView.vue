@@ -24,6 +24,14 @@
         100% open to speak more about it<br>
         $ </code>
 
+    <div class="github-stats-container">
+      <h2 class="role-title">Some stats from my Github Account</h2>
+      <div class="stats-img-container">
+        <img src="https://github-readme-stats.vercel.app/api?username=mikysett&count_private=true&hide_rank=true" alt="Mikysett Github stats">
+        <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=mikysett&layout=compact&langs_count=8&hide=hack,php,assembly,scilab" alt="">
+      </div>
+    </div>
+
     <Separator />
 
     <div class="extra-info-wrapper">
@@ -73,5 +81,21 @@ code {
   font-size: 14px;
   line-height: 22px;
   white-space: nowrap;
+}
+
+.github-stats-container {
+  margin-top: 20px;
+}
+
+.stats-img-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+@media (max-width: 850px) {
+  .stats-img-container {
+    flex-direction: column;
+  }
 }
 </style>
