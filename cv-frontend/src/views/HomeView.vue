@@ -12,6 +12,39 @@
       <div class="company-container">
         <div class="justified-header">
           <div class="jh-left">
+            <h2 class="company-title">Freiheit.com</h2>
+          </div>
+          <div class="jh-right">
+            <p>Lisbon, Portugal</p>
+          </div>
+        </div>
+        <div class="description">
+          freiheit.com's software engineers have been building large-scale software systems since 1999.
+        </div>
+      </div>
+
+      <div class="roles-wrapper">
+        <div class="role-wrapper">
+          <h3 class="role-title sub-role-title">Software Engineer</h3>
+          <div class="justified-header">
+            <div class="jh-left">
+              <p>Full-time</p>
+            </div>
+            <div class="jh-right">
+              <p>Feb 2024 - Present</p>
+            </div>
+          </div>
+          <div class="description">
+            I'm contributing to a large code-base, adding value to our back-end creating new micro-services mainly in GoLang.
+          </div>
+        </div>
+      </div>
+
+      <separator />
+
+      <div class="company-container">
+        <div class="justified-header">
+          <div class="jh-left">
             <h2 class="company-title">01Talent</h2>
           </div>
           <div class="jh-right">
@@ -32,7 +65,7 @@
               <p>Full-time</p>
             </div>
             <div class="jh-right">
-              <p>Jan 2023 - Present</p>
+              <p>Jan 2023 - Oct 2023</p>
             </div>
           </div>
           <div class="description">
