@@ -11,13 +11,13 @@
     <Separator />
 
     <code class="prog-description">$ cat **/* | head -n 10 &amp;&amp; echo "10$?% open to speak more about it"<br>
-        # C (nice), Rust (I love it), C++ (... nothing to declare)<br>
-        # A bit of: Lisp, JS, Python, PHP, Go,(HTML/CSS... does it count?)<br>
+        # GoLang (bread and butter), TS, Rust (I love it), C (first love)<br>
+        # A bit of: Lisp, JS, Python, PHP, C++, (HTML/CSS... does it count?)<br>
         # Emacs keybindings (swapping caps lock and ctrl)<br>
         # Let's make an interactive rebase to squash those atomic commits<br>
         # Test Driven Development (and save years of my life)<br>
         # You have Windows?! Ok, I send you a Dockerfile ;)<br>
-        # I've made a swagger for the API, check the entrypoints<br>
+        # I've made a swagger for the API, check the endpoints<br>
         # I have to do it more than twice? Here is a bash script<br>
         # O(1) is my goal, O(n) will be fine (please not O(n!) again!)<br>
         # Like agile, sprints, atomic tasks? me too :)<br>
@@ -28,7 +28,7 @@
       <h2 class="role-title">Some stats from my Github Account</h2>
       <div class="stats-img-container">
         <img src="https://github-readme-stats.vercel.app/api?username=mikysett&count_private=true&hide_rank=true" alt="Mikysett Github stats">
-        <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=mikysett&layout=compact&langs_count=8&hide=hack,php,assembly,scilab" alt="">
+        <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=mikysett&layout=compact&langs_count=8&hide=html,hack,php,assembly,scilab" alt="">
       </div>
     </div>
 
@@ -47,8 +47,7 @@
           <li class="list-item">- Doing my own Bash (Aka <a href="https://github.com/mikysett/minishell" target="_blank"
               class="text-link">minishell</a><a href="https://ricette.giallozafferano.it/Parmigiana-di-melanzane.html"
               target="_blank" class="text-link"></a>)</li>
-          <li class="list-item">- Starting to contribute to <a href="https://github.com/rust-lang/rust" target="_blank"
-              class="text-link">rustc</a> repo (no, I didn't make any RFC, I'm not a genius)</li>
+          <li class="list-item">- <a href="https://www.zero2prod.com" target="_blank" class="text-link">Zero to Production in Rust</a>, the perfect way to learn how to build a <a href="https://github.com/mikysett/zero2prod" target="_blank" class="text-link">microservice infrastructure in Rust</a></li>
         </ul>
       </div>
     </div>

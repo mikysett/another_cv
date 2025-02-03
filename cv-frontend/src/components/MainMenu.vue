@@ -10,7 +10,7 @@
       </div>
     </div>
 
-    <p @click="showContactInfo = !showContactInfo" class="std-btn contact-btn">
+    <p @click="showContactInfo = !showContactInfo" class="std-btn contact-btn hide-print">
       {{ ContactBtnText }}
     </p>
 
@@ -38,11 +38,11 @@
         <h3>Tech skills</h3>
         <div class="skill-line">
           <div class="skill-name">Front-end</div>
-          <div class="skill-level">JS / Vue</div>
+          <div class="skill-level">TS / Vue</div>
         </div>
         <div class="skill-line">
           <div class="skill-name">Back-end</div>
-          <div class="skill-level">C / Rust</div>
+          <div class="skill-level">Go / Rust / C</div>
         </div>
       </div>
 
@@ -72,8 +72,8 @@
 
     </div>
 
-    <h3 class="menu-title">More about me</h3>
-    <div class="bottom-menu">
+    <h3 class="menu-title hide-print">More about me</h3>
+    <div class="bottom-menu hide-print">
       <router-link class="menu-link" to="/bio">Bio</router-link>
       <router-link class="menu-link" to="/programming">Programming</router-link>
     </div>
@@ -147,6 +147,7 @@ const ContactBtnText = computed(() => {
   display: flex;
   justify-content: flex-end;
   flex: 1;
+  padding-left: 10px;
 }
 
 .bottom-menu {
@@ -197,6 +198,17 @@ const ContactBtnText = computed(() => {
   .title {
     margin-top: 0;
     line-height: 38px;
+  }
+}
+
+@media print {
+  .contact-info-container {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .hide-print {
+    display: none;
   }
 }
 

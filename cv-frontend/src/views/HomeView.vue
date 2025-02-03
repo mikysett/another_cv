@@ -35,7 +35,9 @@
             </div>
           </div>
           <div class="description">
-            I'm contributing to a large code-base, adding value to our back-end creating new micro-services mainly in GoLang.
+            Contributing to a large microservice infrastructure, from new services design and implementation in GoLang to deployment in k8s clusters.<br>
+            Implementing frontend masks in Ts/Vue following industry best practices.<br>
+            Active participation to design decisions to ensure tasks recoverability and idempontency while keeping perfomances in line with expectations.
           </div>
         </div>
       </div>
