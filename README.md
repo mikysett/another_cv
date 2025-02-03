@@ -8,3 +8,6 @@ Play a bit with Vue.js and Vercel to deploy a simple and static website.
 ## Features
 - Easy to update
 - Nicely converts into a PDF (with some tweaks)
+
+## How to run it
+Check [cv-frontend/README.md](./cv-frontend/README.md)
