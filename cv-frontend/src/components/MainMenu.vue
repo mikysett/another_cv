@@ -152,9 +152,8 @@ const ContactBtnText = computed(() => {
 
 .bottom-menu {
   display: flex;
-  flex-direction: column;
-  border: solid 2px #00a851;
-  padding: 4px;
+  flex-direction: row;
+  column-gap: 10px;
 }
 
 .contact-link {
@@ -166,11 +165,15 @@ const ContactBtnText = computed(() => {
 }
 
 .menu-link {
-  color: var(--color1);
-  text-decoration: underline;
+  background: var(--color2);
+  color: var(--bg1);
+  text-decoration: none;
+  padding: 9px 15px;
+  border: 2px solid var(--color2);
 }
 
 .menu-link:hover {
+  background: var(--bg1);
   color: var(--color2);
 }
 
@@ -188,6 +191,19 @@ const ContactBtnText = computed(() => {
     display: flex;
     align-items: center;
     margin-bottom: 20px;
+  }
+
+  .menu-link {
+    background: var(--color2);
+    color: var(--bg1);
+    text-decoration: none;
+    padding: 9px 15px;
+    border: 2px solid var(--color2);
+  }
+
+  .menu-link:hover {
+    background: var(--bg1);
+    color: var(--color2);
   }
 
   .profile-img {
@@ -211,5 +227,4 @@ const ContactBtnText = computed(() => {
     display: none;
   }
 }
-
 </style>

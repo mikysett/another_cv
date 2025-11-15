@@ -82,8 +82,7 @@
           </li>
           <li class="list-item">
             🌈 Helping out in an association that delivers hot meals to families
-            in need<br />
-            (actually I feel they are helping me more than I'm helping them)
+            in need
           </li>
         </ul>
       </div>
